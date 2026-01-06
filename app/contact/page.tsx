@@ -50,10 +50,9 @@ export default function ContactPage() {
       </div>
 
       <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 p-6">
-        <div className="text-sm font-semibold text-white">Quick brief</div>
+        <div className="text-sm font-semibold text-white">Contact Form</div>
         <div className="mt-2 text-sm text-white/70">
-          If you want a contact form, tell me what service you prefer (Resend,
-          Formspree, or a custom API route).
+          Comming soon.
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function ProjectsPage() {
         <div>
           <h1 className="text-3xl font-semibold tracking-tight text-white">Projects</h1>
           <p className="mt-3 text-base text-white/75">
-            A curated set of work—product UI, creative experiments, and shipped
+            A curated set of work—product Apps, creative experiments, and shipped
             systems.
           </p>
         </div>

@@ -38,11 +38,11 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     () => [
       { href: '/', label: 'Home', icon: Home },
       { href: '/about', label: 'About', icon: User },
+      { href: '/resume', label: 'Resume', icon: FileText },
+      { href: '/experience', label: 'Experience', icon: Briefcase },
       { href: '/projects', label: 'Projects', icon: Code },
       { href: '/gallery', label: 'Gallery', icon: Image },
-      { href: '/experience', label: 'Experience', icon: Briefcase },
       { href: '/contact', label: 'Contact', icon: Mail },
-      { href: '/resume', label: 'Resume', icon: FileText },
     ],
     [],
   );

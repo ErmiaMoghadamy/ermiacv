@@ -11,14 +11,13 @@ export default function GalleryPage() {
     <div className="mx-auto w-full max-w-5xl">
       <h1 className="text-3xl font-semibold tracking-tight text-white">Gallery</h1>
       <p className="mt-3 text-base text-white/75">
-        A playground for visuals—UI explorations, motion snippets, and creative
-        experiments.
+        A showcase for events and projects.
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {GALLERY_ITEMS.map((item) => (
+        {GALLERY_ITEMS.map((item, i) => (
           <div
-            key={item.title}
+          key={`${i}`}
             className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:bg-white/7"
           >
             <div className="absolute inset-0 opacity-0 transition group-hover:opacity-100">

@@ -20,90 +20,71 @@ export type GalleryItem = {
 
 export const PROJECTS: Project[] = [
   {
-    title: 'Nebula Studio',
+    title: 'Focusizer App',
     description:
-      'A creative landing system with animated sections, conversion-focused layout, and ultra-fast performance.',
-    tags: ['Next.js', 'Design System', 'Motion'],
+      'A creative focus app with built-in feature and society.',
+    tags: ['Flutter', 'Riverpod', 'HiveDB'],
     href: '#',
   },
   {
-    title: 'Atlas Dashboard',
+    title: 'MathBox',
     description:
-      'A data-heavy dashboard with accessible components, smart filtering, and responsive layouts.',
-    tags: ['React', 'UX', 'Accessibility'],
+      'A game box designed to coach students on arithmetics priority.',
+    tags: ['Arduino', 'Adafruit', 'C++'],
     href: '#',
   },
-  {
-    title: 'Pulse Commerce',
-    description:
-      'E-commerce UI with robust product pages, SEO-friendly routing, and clean checkout flows.',
-    tags: ['Performance', 'SEO', 'UI'],
-    href: '#',
-  },
+  // TODO: AI powered tech Comminity 
+  // {
+  //   title: 'Pulse Commerce',
+  //   description:
+  //     'E-commerce UI with robust product pages, SEO-friendly routing, and clean checkout flows.',
+  //   tags: ['Performance', 'SEO', 'UI'],
+  //   href: '#',
+  // },
 ];
 
 export const EXPERIENCE: TimelineItem[] = [
   {
-    role: 'Frontend Engineer',
-    company: 'Studio / Agency',
-    period: '2024 — Present',
+    role: 'Instructor',
+    company: 'Iran TVET Organization',
+    period: '2022 — Present',
     details:
-      'Leading UI development for product marketing sites and web apps. Built component libraries and improved performance budgets.',
+      'Software development, programming & IT-Solutions instructor.',
+  },
+  {
+    role: 'Full-stack Developer',
+    company: 'Nabla Academy',
+    period: '2022 — 2024',
+    details:
+      'A features LMS & student tracking platforms with online exams.',
   },
   {
     role: 'Full‑Stack Developer',
-    company: 'Startup',
-    period: '2022 — 2024',
+    company: 'Hadaf Clinic',
+    period: '2021 — 2023',
     details:
-      'Shipped features end-to-end, owned UX improvements, and delivered maintainable systems with strong DX.',
+      'Fully Featured Study Tracking system & social media design for Hadaf Clinic.',
   },
   {
     role: 'Freelance',
     company: 'Various Clients',
-    period: '2020 — 2022',
+    period: '2021 — 2024',
     details:
-      'Designed and built landing pages, portfolios, and dashboards with a focus on clarity, speed, and conversion.',
+      'Designed and built full-stack realtime applications for various people.',
   },
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  {
-    title: 'Aurora Cards',
-    description: 'Soft gradients + glassmorphism UI cards.',
-    tag: 'UI',
-  },
-  {
-    title: 'Motion Studies',
-    description: 'Micro-interactions and transitions that feel natural.',
-    tag: 'Motion',
-  },
-  {
-    title: 'Typography System',
-    description: 'Type scales and rhythm for long-form readability.',
-    tag: 'Design',
-  },
-  {
-    title: 'Dashboard Blocks',
-    description: 'Reusable blocks for dense product UIs.',
-    tag: 'Product',
-  },
-  {
-    title: 'Landing Page Concepts',
-    description: 'Layouts focused on clarity and conversion.',
-    tag: 'Marketing',
-  },
-  {
-    title: 'Icon & Detail Pass',
-    description: 'Small details that make interfaces feel premium.',
-    tag: 'Polish',
-  },
+  { title: '', description: '', tag: '', },
+  { title: '', description: '', tag: '', },
+  { title: '', description: '', tag: '', },
 ];
 
 export const CONTACT = {
   email: 'ermia.arc@gmail.com',
   socials: {
-    github: '#',
-    linkedin: '#',
-    x: '#',
+    github: 'https://github.com/ErmiaMoghadamy',
+    linkedin: 'https://linkedin.com/in/ermia-moghadamy',
+    x: 'https://x.com/ermia_codev',
   },
 };

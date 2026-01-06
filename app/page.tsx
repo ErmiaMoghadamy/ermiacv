@@ -8,11 +8,11 @@ export default function Home() {
         <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div className='order-last lg:order-first'>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-3 py-1 text-xs font-semibold text-white/75">
-              AI Enhanced
+              AI<span className='hidden lg:inline'>/&nbsp;  ML</span> Engineer
               <span className="h-1 w-1 rounded-full bg-white/40" />
-              UI Engineering
+              Data Scientist
               <span className="h-1 w-1 rounded-full bg-white/40" />
-              Motion
+              Fullstack<span className='hidden lg:inline'>+ &nbsp; DevOps</span>
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -23,9 +23,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/75">
-              Product-minded engineer focused on clean design systems, fast
-              performance, and delightful motion. I help teams ship polished web
-              experiences.
+              {SITE.DESCRIPTION}
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
@@ -48,7 +46,7 @@ export default function Home() {
             <GeometricAvatar
               src={PROFILE.imageSrc}
               alt={PROFILE.imageAlt}
-              size={240}
+              size={200}
             />
           </div>
         </div>
@@ -67,9 +65,9 @@ export default function Home() {
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-            <div className="text-sm font-semibold text-white">Creative Motion</div>
+            <div className="text-sm font-semibold text-white">AI Powered</div>
             <div className="mt-2 text-sm text-white/70">
-              Subtle animations that make interfaces feel alive.
+              ready to adopt AI workflows.
             </div>
           </div>
         </div>
