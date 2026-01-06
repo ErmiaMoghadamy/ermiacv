@@ -1,41 +1,56 @@
+import GeometricAvatar from '@/components/GeometricAvatar';
+import { PROFILE, SITE } from '@/constants';
+
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-4xl">
       <div className="rounded-3xl border border-white/10 bg-white/5 p-7 sm:p-10">
-        <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-3 py-1 text-xs font-semibold text-white/75">
-          Creative Developer
-          <span className="h-1 w-1 rounded-full bg-white/40" />
-          UI Engineering
-          <span className="h-1 w-1 rounded-full bg-white/40" />
-          Motion
-        </div>
+        <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
+          <div className='order-last lg:order-first'>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-3 py-1 text-xs font-semibold text-white/75">
+              AI Enhanced
+              <span className="h-1 w-1 rounded-full bg-white/40" />
+              UI Engineering
+              <span className="h-1 w-1 rounded-full bg-white/40" />
+              Motion
+            </div>
 
-        <h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-          I design and build
-          <span className="block bg-gradient-to-r from-indigo-300 via-fuchsia-200 to-pink-200 bg-clip-text text-transparent">
-            modern digital experiences.
-          </span>
-        </h1>
+            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+              {SITE.name}
+              <span className="block bg-gradient-to-r from-indigo-300 via-fuchsia-200 to-pink-200 bg-clip-text text-transparent">
+                {SITE.tagline}
+              </span>
+            </h1>
 
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/75">
-          Product-minded engineer focused on clean design systems, fast
-          performance, and delightful motion. I help teams ship polished web
-          experiences.
-        </p>
+            <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/75">
+              Product-minded engineer focused on clean design systems, fast
+              performance, and delightful motion. I help teams ship polished web
+              experiences.
+            </p>
 
-        <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-          <a
-            href="/projects"
-            className="inline-flex items-center justify-center rounded-xl bg-indigo-500/90 px-5 py-3 text-sm font-semibold text-white transition hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
-          >
-            View Projects
-          </a>
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white/85 transition hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500/40"
-          >
-            Contact Me
-          </a>
+            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="/projects"
+                className="inline-flex items-center justify-center rounded-xl bg-indigo-500/90 px-5 py-3 text-sm font-semibold text-white transition hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
+              >
+                View Projects
+              </a>
+              <a
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white/85 transition hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500/40"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+
+          <div className="mx-auto w-fit lg:mx-0">
+            <GeometricAvatar
+              src={PROFILE.imageSrc}
+              alt={PROFILE.imageAlt}
+              size={240}
+            />
+          </div>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">

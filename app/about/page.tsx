@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { COPY, SEO } from '@/constants';
+import GeometricAvatar from '@/components/GeometricAvatar';
+import { COPY, PROFILE, SEO } from '@/constants';
 
 export const metadata: Metadata = {
   title: SEO.about.title,
@@ -10,10 +11,22 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto w-full max-w-3xl">
-      <h1 className="text-3xl font-semibold tracking-tight text-white">About</h1>
-      <p className="mt-3 text-base leading-relaxed text-white/75">
-        {COPY.about.intro}
-      </p>
+      <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-start">
+        <div>
+          <h1 className="text-3xl font-semibold tracking-tight text-white">About</h1>
+          <p className="mt-3 text-base leading-relaxed text-white/75">
+            {COPY.about.intro}
+          </p>
+        </div>
+
+        <div className="mx-auto w-fit lg:mx-0">
+          <GeometricAvatar
+            src={PROFILE.imageSrc}
+            alt={PROFILE.imageAlt}
+            size={200}
+          />
+        </div>
+      </div>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">

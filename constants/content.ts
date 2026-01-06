@@ -3,6 +3,11 @@ export const SITE = {
   tagline: 'AI Enhanced Software Engineer',
 };
 
+export const PROFILE = {
+  imageSrc: '/ermia-suits.jpg',
+  imageAlt: 'Profile photo of Ermia Moghadamy',
+};
+
 export const SEO = {
   home: {
     title: `${SITE.name} - ${SITE.tagline}`,

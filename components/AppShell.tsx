@@ -55,7 +55,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
             <Link href="/" className="group">
               <div className="text-sm font-medium text-white/70">Portfolio</div>
               <div className="text-xl font-semibold tracking-tight text-white group-hover:text-white/90">
-                Ermia
+                Ermia Moghadamy
               </div>
             </Link>
           </div>
@@ -110,7 +110,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
             </button>
 
             <Link href="/" className="text-sm font-semibold text-white">
-              Ermia
+              Ermia M.
             </Link>
 
             <Link
@@ -154,7 +154,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
                 <Link href="/" className="group">
                   <div className="text-xs font-medium text-white/70">Portfolio</div>
                   <div className="text-lg font-semibold text-white group-hover:text-white/90">
-                    Ermia
+                    Ermia Moghadamy
                   </div>
                 </Link>
 
