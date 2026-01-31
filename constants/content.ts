@@ -5,7 +5,7 @@ export const SITE = {
 };
 
 export const PROFILE = {
-  imageSrc: '/ermia-suits.jpg',
+  imageSrc: '/ermia.jpg',
   imageAlt: 'Profile photo of Ermia Moghadamy',
 };
 

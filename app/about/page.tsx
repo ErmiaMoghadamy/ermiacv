@@ -71,7 +71,8 @@ export default function AboutPage() {
         <div className="text-sm font-semibold text-white">Currently 🌙</div>
         <div className="mt-2 text-sm leading-relaxed text-white/70">
           Open to freelance and part-time opportunities. If you&apos;re building
-          something ambitious, I&apos;d love to help you ship it.
+          something ambitious, I&apos;d love to help you ship it. <br />
+          CS Researches relevant to the mentioned interests are welcome. 
         </div>
         <div className="mt-5 flex flex-col gap-3 sm:flex-row">
           <Link

@@ -48,7 +48,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   );
 
   return (
-    <div className="min-h-dvh bg-[radial-gradient(80rem_40rem_at_10%_-10%,rgba(99,102,241,0.18),transparent),radial-gradient(60rem_30rem_at_90%_0%,rgba(236,72,153,0.12),transparent)]">
+    <div className="min-h-dvh bg-[radial-gradient(80rem_40rem_at_10%_-10%,rgba(99,102,241,0.18),transparent),radial-gradient(60rem_30rem_at_90%_0%,rgba(236,72,153,0.12),transparent)] bg-black text-white">
       <div className="mx-auto flex min-h-dvh max-w-6xl">
         <aside className="hidden w-72 flex-col gap-6 border-r border-white/10 bg-black/20 p-6 backdrop-blur xl:flex">
           <div className="flex items-center justify-between">

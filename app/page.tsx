@@ -53,23 +53,27 @@ export default function Home() {
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-            <div className="text-sm font-semibold text-white">Design Systems</div>
+            <div className="text-sm font-semibold text-white">Reseach Interest</div>
             <div className="mt-2 text-sm text-white/70">
-              Scalable components that stay consistent as you grow.
+              Graphics Programming, Platform architechture, Analog Computing. 
             </div>
           </div>
+
           <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-            <div className="text-sm font-semibold text-white">Performance</div>
+            <div className="text-sm font-semibold text-white">Stack</div>
             <div className="mt-2 text-sm text-white/70">
-              Fast loads, smooth interactions, measurable improvements.
+              Typescript, Python, Go, Flutter. <br />
+              FT, PyTorch, ...
             </div>
           </div>
+
           <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-            <div className="text-sm font-semibold text-white">AI Powered</div>
+            <div className="text-sm font-semibold text-white">Education</div>
             <div className="mt-2 text-sm text-white/70">
-              ready to adopt AI workflows.
+              Currently studying at SUT.
             </div>
           </div>
+          
         </div>
       </div>
 
