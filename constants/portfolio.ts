@@ -24,14 +24,14 @@ export const PROJECTS: Project[] = [
     description:
       'A modern scene-graph style game engine built from scratch in Zig.',
     tags: ['Zig', 'OpenGL', 'engine'],
-    href: '#',
+    href: 'https://github.com/ErmiaMoghadamy/zephrone',
   },
   {
     title: 'Focusizer App',
     description:
       'A creative focus app with built-in feature and society.',
     tags: ['Flutter', 'Riverpod', 'HiveDB'],
-    href: '#',
+    href: 'https://github.com/ErmiaMoghadamy/Focusizer',
   },
   {
     title: 'MathBox',
