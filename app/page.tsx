@@ -8,11 +8,11 @@ export default function Home() {
         <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div className='order-last lg:order-first'>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-3 py-1 text-xs font-semibold text-white/75">
-              AI<span className='hidden lg:inline'>/&nbsp;  ML</span> Engineer
+              Math<span className='hidden lg:inline'>/&nbsp;  </span> Student
               <span className="h-1 w-1 rounded-full bg-white/40" />
-              Data Scientist
+              Software/Graphics Engineer
               <span className="h-1 w-1 rounded-full bg-white/40" />
-              Fullstack<span className='hidden lg:inline'>+ &nbsp; DevOps</span>
+              <span className='hidden lg:inline'>+ &nbsp; DevOps & Infra</span>
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -55,7 +55,7 @@ export default function Home() {
           <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
             <div className="text-sm font-semibold text-white">Reseach Interest</div>
             <div className="mt-2 text-sm text-white/70">
-              Graphics Programming, Platform architechture, Analog Computing. 
+              Graphics Programming, Platform architechture, Analog Computing.
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
               Currently studying at SUT.
             </div>
           </div>
-          
+
         </div>
       </div>
 

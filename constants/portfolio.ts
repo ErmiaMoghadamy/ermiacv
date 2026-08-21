@@ -20,6 +20,13 @@ export type GalleryItem = {
 
 export const PROJECTS: Project[] = [
   {
+    title: 'Zephrone Game Engine',
+    description:
+      'A modern scene-graph style game engine built from scratch in Zig.',
+    tags: ['Zig', 'OpenGL', 'engine'],
+    href: '#',
+  },
+  {
     title: 'Focusizer App',
     description:
       'A creative focus app with built-in feature and society.',
@@ -33,7 +40,7 @@ export const PROJECTS: Project[] = [
     tags: ['Arduino', 'Adafruit', 'C++'],
     href: '#',
   },
-  // TODO: AI powered tech Comminity 
+  // TODO: AI powered tech Comminity
   // {
   //   title: 'Pulse Commerce',
   //   description:
@@ -48,6 +55,13 @@ export const EXPERIENCE: TimelineItem[] = [
     role: 'Instructor',
     company: 'Iran TVET Organization',
     period: '2022 — Present',
+    details:
+      'Software development, programming & IT-Solutions instructor.',
+  },
+  {
+    role: 'Software Developer',
+    company: 'FigAi | FigFit Complex',
+    period: '2026 — 2026 (2 months)',
     details:
       'Software development, programming & IT-Solutions instructor.',
   },

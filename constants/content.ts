@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Ermia Moghadamy',
-  tagline: 'Data Scientist, Software Engineer',
-  DESCRIPTION: 'I\'m Ermia Moghadamy AI/ML Engineer, Software Engineer, Data Scientist & DevOps. With an architech mindset, I don\'t just code, I build Systems.',
+  tagline: 'Software Engineer, Graphics Engineer',
+  DESCRIPTION: 'I\'m Ermia Moghadamy  Graphics/Software Engineer. With an architech mindset, I don\'t just code, I build Systems.',
 };
 
 export const PROFILE = {
@@ -48,6 +48,6 @@ export const SEO = {
 export const COPY = {
   about: {
     intro:
-      "Hey — I'm Ermia Moghadamy 👋 I build modern realtime app experiences where design, performance, and motion all work together. I care about the details: the system, the product, the architecture — all the stuff that makes a product feel premium ✨",
+      "Hey — I'm Ermia Moghadamy 👋 I build modern realtime app experiences where design, performance, and maintainance all work together. I care about the details: the system, the product, the architecture — all the stuff that makes a product feel premium ✨",
   },
 };
