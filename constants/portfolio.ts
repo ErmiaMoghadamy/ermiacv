@@ -22,32 +22,39 @@ export const PROJECTS: Project[] = [
   {
     title: 'Zephrone Game Engine',
     description:
-      'A modern scene-graph style game engine built from scratch in Zig.',
-    tags: ['Zig', 'OpenGL', 'engine'],
+      'A modern scene-graph style game engine built from scratch in Zig: with GameType Injection.',
+    tags: ['Zig', 'OpenGL', 'engine', 'DSL'],
     href: 'https://github.com/ErmiaMoghadamy/zephrone',
   },
   {
-    title: 'Focusizer App',
+    title: 'HexOs Operating System',
+    description:
+      'A Very simple Implementation of MINIX using zig: customized bootloader, basic drivers,  .',
+    tags: ['Zig', 'MINIX', 'OS'],
+    href: 'https://github.com/ErmiaMoghadamy/hexhub',
+  },
+  {
+    title: 'HexHub Hypervizer',
+    description:
+      'A Implementation of a Hypervisor with purpose of exploring world of computing.',
+    tags: ['Rust', 'Hypervisor'],
+    href: '#',
+  },
+  {
+    title: 'Focusizer App (childhood project)',
     description:
       'A creative focus app with built-in feature and society.',
     tags: ['Flutter', 'Riverpod', 'HiveDB'],
     href: 'https://github.com/ErmiaMoghadamy/Focusizer',
   },
   {
-    title: 'MathBox',
+    title: 'MathBox (childhood project)',
     description:
-      'A game box designed to coach students on arithmetics priority.',
+      'A physical game box designed to coach students on arithmetics priority.',
     tags: ['Arduino', 'Adafruit', 'C++'],
     href: '#',
   },
-  // TODO: AI powered tech Comminity
-  // {
-  //   title: 'Pulse Commerce',
-  //   description:
-  //     'E-commerce UI with robust product pages, SEO-friendly routing, and clean checkout flows.',
-  //   tags: ['Performance', 'SEO', 'UI'],
-  //   href: '#',
-  // },
+
 ];
 
 export const EXPERIENCE: TimelineItem[] = [
@@ -60,31 +67,31 @@ export const EXPERIENCE: TimelineItem[] = [
   },
   {
     role: 'Software Developer',
-    company: 'FigAi | FigFit Complex',
+    company: 'FigAi | FigFit',
     period: '2026 — 2026 (2 months)',
     details:
-      'Software development, programming & IT-Solutions instructor.',
+      'Software development.',
   },
   {
-    role: 'Full-stack Developer',
+    role: 'Software Engineer',
     company: 'Nabla Academy',
     period: '2022 — 2024',
     details:
       'A features LMS & student tracking platforms with online exams.',
   },
   {
-    role: 'Full‑Stack Developer',
+    role: 'Software Engineer & Tech Support (part-time)',
     company: 'Hadaf Clinic',
     period: '2021 — 2023',
     details:
-      'Fully Featured Study Tracking system & social media design for Hadaf Clinic.',
+      'Fully featured automation of phsycology clinic .',
   },
   {
     role: 'Freelance',
     company: 'Various Clients',
     period: '2021 — 2024',
     details:
-      'Designed and built full-stack realtime applications for various people.',
+      'Designed and built realtime applications for various people including: Termeeh Botique, Nabla Academy, Gravity Academy, ....',
   },
 ];
 

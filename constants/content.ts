@@ -1,43 +1,43 @@
 export const SITE = {
   name: 'Ermia Moghadamy',
-  tagline: 'Software Engineer, Graphics Engineer',
+  tagline: 'Software/Graphics Engineer, Math Student',
   DESCRIPTION: 'I\'m Ermia Moghadamy  Graphics/Software Engineer. With an architech mindset, I don\'t just code, I build Systems.',
 };
 
 export const PROFILE = {
   imageSrc: '/ermia.jpg',
-  imageAlt: 'Profile photo of Ermia Moghadamy',
+  imageAlt: 'Photo of Ermia Moghadamy | ارمیا مقدمی',
 };
 
 export const SEO = {
   home: {
     title: `${SITE.name} - ${SITE.tagline}`,
     description:
-      'Ermia Moghadamy: AI Software Engineer, ML/AI Engineer, Data Scientist & DevOps.',
+      'Ermia Moghadamy: Graphics/Software, Data Scientist & Math Student.',
   },
   projects: {
     title: `Projects | ${SITE.name}`,
     description:
-      'Ermia Moghadamy: product UI, creative experiments, and shipped systems.',
+      'Ermia Moghadamy: Operating Systems, Compilers, Proof Assistants, Game Egnines.',
   },
   experience: {
     title: `Experience | ${SITE.name}`,
     description:
-      'Ermia Moghadamy: Selected roles and collaborations that shaped my approach to building.',
+      'Ermia Moghadamy: Freelancer | Instructor since age 15.',
   },
   about: {
     title: `About | ${SITE.name}`,
     description:
-      'Learn about Ermia: a creative developer/engineer blending UI engineering, product thinking, and motion for modern web experiences.',
+      'Learn about Ermia: a Software/Graphics Engineer: From low-level first-principles to Modern Math\'s Bleeding Edge.',
   },
   gallery: {
     title: `Gallery | ${SITE.name}`,
-    description: 'A visual gallery of experiments, UI explorations, and snapshots.',
+    description: 'A visual gallery of my works.',
   },
   contact: {
     title: `Contact | ${SITE.name}`,
     description:
-      'Get in touch: share your project, timeline, and what success looks like.',
+      'Get in touch: share your idea.',
   },
   resume: {
     title: `Resume | ${SITE.name}`,
@@ -48,6 +48,6 @@ export const SEO = {
 export const COPY = {
   about: {
     intro:
-      "Hey — I'm Ermia Moghadamy 👋 I build modern realtime app experiences where design, performance, and maintainance all work together. I care about the details: the system, the product, the architecture — all the stuff that makes a product feel premium ✨",
+      "I'm Ermia Moghadamy, Software/Graphics Engineer and Math Student. I have study how computers work differently at low-level (alternative computation / computation thoery).",
   },
 };
