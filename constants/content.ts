@@ -48,6 +48,6 @@ export const SEO = {
 export const COPY = {
   about: {
     intro:
-      "I'm Ermia Moghadamy, Software/Graphics Engineer and Math Student. I have study how computers work differently at low-level (alternative computation / computation thoery).",
+      "I'm Ermia Moghadamy, Software/Graphics Engineer and Math Student. I study how computers work differently at low-level (alternative computation / computation thoery).",
   },
 };
